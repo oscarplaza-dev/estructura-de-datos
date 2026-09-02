@@ -25,6 +25,7 @@ Para representar y manipular una matriz de $100,000 \times 100,000$ ($10^{10}$ c
 ### Compilación:
 ```bash
 g++ -O3 main.cpp -o lab1.exe
+```
 
 ## 4. Prueba de Ejecución
-![Resultados del Laboratorio](resultado.png)
+![Resultados del Laboratorio](Resultado.png)
