@@ -1,31 +1,20 @@
-# Laboratorio 1: Matriz Binaria (100,000 x 100,000)
+# Estructura de Datos - Registro de Laboratorios
 
+**Estudiante:** Oscar Plaza  
 **Asignatura:** Estructuras de Datos  
 **Docente:** Edison Alejandro Montoya  
 
 ---
 
-## 1. Justificación Técnica y Optimización
-Para representar y manipular una matriz de $100,000 \times 100,000$ ($10^{10}$ celdas) sin saturar la memoria RAM ni agotar el disco de la máquina:
-* **Representación Bidimensional Real:** Se define una cabecera binaria `MatrixHeader` (16 bytes) al inicio del archivo que contiene explícitamente el número de filas, columnas y el tamaño en bits por elemento.
-* **Bit-Packing (1 bit/celda):** En lugar de usar enteros (`int` de 4 bytes = 40 GB), se almacena cada celda como un único bit. Esto comprime la representación a solo **1.16 GB** en disco.
-* **Acceso por Streaming (`seekg`):** Las lecturas y consultas de subregiones se realizan leyendo directamente desde la posición física en el archivo binario usando aritmética de punteros en disco, consumiendo un espacio de RAM insignificante (< 1 MB).
+## Índice de Entregas y Laboratorios
+
+| Unidad / Tema | Laboratorio | Descripción Técnica | Archivos y Documentación |
+| :--- | :--- | :--- | :--- |
+| **Unidad 1: Hashing** | **Laboratorio 1** | Matriz Binaria Gigante ($100,000 \times 100,000$) manipulada vía streaming en disco en C++. | [Ver Laboratorio 1](Unidad_1_Hashing/Lab1/) \| [README](Unidad_1_Hashing/Lab1/README.md) |
+| **Unidad 1: Hashing** | **Laboratorio 2** | Árbol de Merkle con hashes SHA-256 sobre listas anidadas ($O(1)$ en RAM y pruebas $O(\log N)$) en Python. | [Ver Laboratorio 2](Unidad_1_Hashing/Lab2/) \| [README](Unidad_1_Hashing/Lab2/README.md) |
 
 ---
 
-## 2. Estructura del Repositorio
-* `main.cpp`: Código fuente completo en C++ que genera el archivo binario, escribe la cabecera y realiza consultas mediante streaming.
-* `.gitignore`: Configuración para evitar subir el archivo de datos binario (`.bin`) y compilados (`.exe`).
-* `README.md`: Documentación del laboratorio.
-
----
-
-## 3. Instrucciones de Compilación y Ejecución
-
-### Compilación:
-```bash
-g++ -O3 main.cpp -o lab1.exe
-```
-
-## 4. Prueba de Ejecución
-![Resultados del Laboratorio](Resultado.png)
+## Tecnologías y Herramientas
+* **Lenguajes:** C++17 / Python 3
+* **Control de Versiones:** Git & GitHub
