@@ -70,3 +70,10 @@ RAÍZ  =  hash(H1234 + H5555)
 | `H1234` | `64f204cad5...` | 2 |
 | `H5555` | `6931ae5ae9...` | 2 |
 | **RAÍZ** | `10ff2e74a3...` | 3 |
+
+
+Uso de Inteligencia Artificial
+
+Para este laboratorio usé Claude como apoyo, principalmente para revisar mi código y para ayudarme a redactar el README. Yo desarrollé la lógica del árbol de Merkle (la construcción con listas anidadas sin nodos ni punteros, la generación de la prueba de inclusión y su verificación), y le pedí a la IA que revisara si mi implementación era correcta antes de darla por terminada. También me ayudó a simplificar una parte del código que tenía repetida (la lógica de duplicar el último hash cuando un nivel queda impar), y a organizar la documentación del proyecto a partir de mi propio código y de los resultados de mis pruebas.
+Además, le pedí que me generara la representación gráfica de la construcción del árbol (el diagrama de niveles mostrando cómo las 5 transacciones se combinan hasta llegar a la raíz), usando los hashes reales que produjo mi ejecución. 
+
