@@ -1,0 +1,25 @@
+Sistema operativo: Windows-11-10.0.26200-SP0
+Procesador: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+Núcleos lógicos: 6
+RAM total: (no disponible en este sistema operativo)
+Python: 3.14.5 (CPython)
+numpy: 2.4.6
+matplotlib: 3.10.9
+Reloj: time.perf_counter()
+
+Perfil de configuración: completo
+  nombre = completo
+  semilla = 2026
+  repeticiones = 10
+  n_aleatorio = (16, 64, 256, 1024, 4096, 16384, 65536, 131072)
+  n_ordenado = (16, 64, 256, 1024, 2048, 4096, 8192, 16384)
+  m_fijo = 1000
+  n_fijo = 10000
+  m_valores = (100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600)
+  n_orden_bmas = 65536
+  ordenes_bmas = (4, 8, 16, 32, 64, 128, 256)
+  orden_bmas = 32
+  ventana_busqueda_s = 1.0
+  ventana_construccion_s = 0.2
+  ventana_listado_s = 0.2
+  calentamiento = 50

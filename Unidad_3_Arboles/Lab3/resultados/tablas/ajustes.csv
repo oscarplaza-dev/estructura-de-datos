@@ -1,0 +1,10 @@
+experimento,orden_datos,estructura,teoria,rango_N,exponente_b,R2_potencia,modelo_pendiente,pendiente,R2_pendiente
+A búsqueda vs N,aleatorio,Lista,O(N),1.024–131.072,1.04262,0.999527,t = a + b·log2(N)  [µs al duplicar N],660.941,0.731912
+A búsqueda vs N,aleatorio,ABB,O(log N) promedio / O(N) peor caso,1.024–131.072,0.155422,0.997941,t = a + b·log2(N)  [µs al duplicar N],0.241292,0.979172
+A búsqueda vs N,aleatorio,B+,O(log N),1.024–131.072,0.124663,0.989571,t = a + b·log2(N)  [µs al duplicar N],0.151954,0.971227
+A búsqueda vs N,ordenado,Lista,O(N),1.024–16.384,1.07415,0.999949,t = a + b·log2(N)  [µs al duplicar N],126.943,0.858954
+A búsqueda vs N,ordenado,ABB,O(log N) promedio / O(N) peor caso,1.024–16.384,1.03786,0.999964,t = a + b·log2(N)  [µs al duplicar N],209.47,0.862315
+A búsqueda vs N,ordenado,B+,O(log N),1.024–16.384,0.119405,0.932767,t = a + b·log2(N)  [µs al duplicar N],0.127489,0.904067
+B tiempo total vs M,aleatorio,Lista,O(M) para todas,M 100–25600,0.9985,0.99997,t = a + b·M  [µs por búsqueda],325.219,0.999997
+B tiempo total vs M,aleatorio,ABB,O(M) para todas,M 100–25600,0.974523,0.999709,t = a + b·M  [µs por búsqueda],2.12068,0.999931
+B tiempo total vs M,aleatorio,B+,O(M) para todas,M 100–25600,0.962014,0.999591,t = a + b·M  [µs por búsqueda],1.5819,0.999955
