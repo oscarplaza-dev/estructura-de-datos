@@ -1,6 +1,6 @@
 # Estructura de Datos - Registro de Laboratorios
 
-**Estudiante:** Oscar Plaza  
+**Estudiante:** Oscar Alberto Plaza Laverde  
 **Asignatura:** Estructuras de Datos  
 **Docente:** Edison Alejandro Montoya  
 
