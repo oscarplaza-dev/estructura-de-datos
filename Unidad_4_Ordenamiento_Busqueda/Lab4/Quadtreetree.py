@@ -1,7 +1,7 @@
 """
 Quadtreetree.py — Quadtree PR (point-region) por buckets, en K dimensiones.
 
-Autor: Oscar Alberto Plaza — Estructuras de Datos (UdeA), Laboratorio 4.
+Autor: Oscar Alberto Plaza Laverde — Estructuras de Datos (UdeA), Laboratorio 4.
 
 Fuentes:
   [1] Wikipedia, "Quadtree", secciones "Point-region (PR) quadtree" y "Pseudocode".
